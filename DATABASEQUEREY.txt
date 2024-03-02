@@ -1,0 +1,21 @@
+1.CREATING TABLE
+CREATE TABLE IF NOT EXISTS donors (
+    name VARCHAR(255),
+    bloodgroup VARCHAR(5),
+    gender VARCHAR(10),
+    weight FLOAT,
+    phonenumber VARCHAR(15),
+    address VARCHAR(255),
+    age INT
+);
+
+2.INSERTION QUEREY
+
+INSERT INTO donors (name, bloodgroup, gender, weight, phonenumber, address, age)
+VALUES (?, ?, ?, ?, ?, ?, ?);
+
+
+3.SEARCHING FOR DONORS WITH RESPECT TO BLOOD GROUP
+
+SELECT * FROM donors WHERE bloodgroup = ?;
+
