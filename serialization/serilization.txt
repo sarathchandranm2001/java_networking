@@ -1,2 +1,5 @@
 serialization---
-storing an object
+storing an object into a stream is called serialization. A stream can be a file,database,network,etc.
+retreving of the object is known as deserialization
+TRANCIENT 
+if you dont want to serialize any of the variable or datamembeer .we can use Transient
